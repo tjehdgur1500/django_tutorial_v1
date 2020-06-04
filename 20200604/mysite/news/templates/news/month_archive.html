@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Articles for {{ month }}{% endblock %}
+
+{% block content %}
+<h1>Articles for {{ month }}</h1>
+
+{% for article in article_list %}
+    <p>{{ article.headline }}</p>
+    <p>By {{ article.reporter.full_name }}</p>
+    <p>Published {{ article.pub_date|date:"F j, m" }}</p>
+    <p style="color:dodgerblue;font-size:30px;">{{ month }}월 입니다</p>
+{% endfor %}
+{% endblock %}
