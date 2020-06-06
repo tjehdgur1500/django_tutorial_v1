@@ -2,92 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b16b2ec-f730-43e4-89b6-e9db53f00c09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/20200604.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/dataSources/0b081c9e-f2fd-473e-8ec8-4d0132d7024c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/.python-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/mysite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/mysite/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/mysite/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/mysite/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/mysite/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/templates/news/article_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/templates/news/month_archive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/templates/news/year_archive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/news/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/mysite/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20200604/r.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.idea/django-tutorial.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/.python-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/blog/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/django_tutorial/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/django_tutorial/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/django_tutorial/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/django_tutorial/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/django_tutorial/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/student/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/student/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/student/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/student/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/student/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/django_tutorial/student/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../django-tutorial/r.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.idea/drf-tutorial.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/.python-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/drf_tutorial/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/drf_tutorial/drf_tutorial/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/drf_tutorial/drf_tutorial/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/drf_tutorial/drf_tutorial/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/drf_tutorial/drf_tutorial/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/drf_tutorial/drf_tutorial/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drf-tutorial/drf_tutorial/manage.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/snippets/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/snippets/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/snippets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/snippets/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/snippets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/snippets/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/snippets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/snippets/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial/snippets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/snippets/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/tutorial/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/tutorial/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +113,7 @@
       <workItem from="1591325278530" duration="1241000" />
       <workItem from="1591326645289" duration="8387000" />
       <workItem from="1591340766728" duration="13827000" />
-      <workItem from="1591416912769" duration="11067000" />
+      <workItem from="1591416912769" duration="11650000" />
     </task>
     <servers />
   </component>
@@ -213,22 +129,22 @@
       <screen x="0" y="23" width="1280" height="711" />
     </state>
     <state x="427" y="140" key="FileChooserDialogImpl/0.23.1280.711@0.23.1280.711" timestamp="1591341650313" />
-    <state width="1238" height="270" key="GridCell.Tab.0.bottom" timestamp="1591431112219">
+    <state width="1238" height="270" key="GridCell.Tab.0.bottom" timestamp="1591431475305">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.bottom/0.23.1280.711@0.23.1280.711" timestamp="1591431112219" />
-    <state width="1238" height="270" key="GridCell.Tab.0.center" timestamp="1591431112218">
+    <state width="1238" height="270" key="GridCell.Tab.0.bottom/0.23.1280.711@0.23.1280.711" timestamp="1591431475305" />
+    <state width="1238" height="270" key="GridCell.Tab.0.center" timestamp="1591431475304">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.center/0.23.1280.711@0.23.1280.711" timestamp="1591431112218" />
-    <state width="1238" height="270" key="GridCell.Tab.0.left" timestamp="1591431112217">
+    <state width="1238" height="270" key="GridCell.Tab.0.center/0.23.1280.711@0.23.1280.711" timestamp="1591431475304" />
+    <state width="1238" height="270" key="GridCell.Tab.0.left" timestamp="1591431475303">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.left/0.23.1280.711@0.23.1280.711" timestamp="1591431112217" />
-    <state width="1238" height="270" key="GridCell.Tab.0.right" timestamp="1591431112218">
+    <state width="1238" height="270" key="GridCell.Tab.0.left/0.23.1280.711@0.23.1280.711" timestamp="1591431475303" />
+    <state width="1238" height="270" key="GridCell.Tab.0.right" timestamp="1591431475305">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.right/0.23.1280.711@0.23.1280.711" timestamp="1591431112218" />
+    <state width="1238" height="270" key="GridCell.Tab.0.right/0.23.1280.711@0.23.1280.711" timestamp="1591431475305" />
     <state width="1238" height="219" key="GridCell.Tab.1.bottom" timestamp="1591340488293">
       <screen x="0" y="23" width="1280" height="711" />
     </state>

@@ -9,9 +9,6 @@ from snippets.serializers import SnippetSerializer, UserSerializer
 
 
 class SnippetViewSet(viewsets.ModelViewSet):
-    """
-    modleviewset은 list, create , retrieve, update, destroy 를 지원한다
-    """
     queryset = Snippet.objects.all()
     serializer_class = SnippetSerializer
     permission_classes = (permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly,)
@@ -27,8 +24,5 @@ class SnippetViewSet(viewsets.ModelViewSet):
 
 
 class UserViewSet(viewsets.ReadOnlyModelViewSet):
-    """
-    viewsets은 기존의 list, detail기능을 지원한다.
-    """
     queryset = User.objects.all()
     serializer_class = UserSerializer
