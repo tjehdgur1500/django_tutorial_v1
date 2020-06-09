@@ -1,10 +1,9 @@
 from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
+from rest_framework import routers
 from notice import views
 
-urlpatterns = [
-    path('notice/', views.NoticeList.as_view()),
-    path('notice/<int:pk>/', views.NoticeDetail.as_view()),
-]
 
-urlpatterns = format_suffix_patterns(urlpatterns)
+router = routers.SimpleRouter()
+router.register(r'notice', views.NoticeViewSet, basename='notice')
+urlpatterns = router.urls

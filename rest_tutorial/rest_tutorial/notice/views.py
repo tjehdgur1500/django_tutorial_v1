@@ -1,38 +1,31 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404,Http404
+from django.contrib.auth.models import User
 from notice.models import Notice
 from notice.serializers import NoticeSerializer
-from rest_framework import generics
-from rest_framework import mixins
+from rest_framework.viewsets import ModelViewSet
 from rest_framework import filters
+from rest_framework.authtoken.views import ObtainAuthToken
+from rest_framework.authtoken.models import Token
+from rest_framework.response import Response
 
 
-class NoticeList(mixins.ListModelMixin,
-                 mixins.CreateModelMixin,
-                 generics.GenericAPIView):
+class NoticeViewSet(ModelViewSet):
     queryset = Notice.objects.all()
     serializer_class = NoticeSerializer
     filter_backends = [filters.SearchFilter]
     search_fields = ['title', 'code']
 
-    def get(self, request, *args, **kwargs):
-        return self.list(request, *args, **kwargs)
+
+class CustomAuthToken(ObtainAuthToken):
 
     def post(self, request, *args, **kwargs):
-        return self.create(request, *args, **kwargs)
-
-
-class NoticeDetail(mixins.RetrieveModelMixin,
-                   mixins.UpdateModelMixin,
-                   mixins.DestroyModelMixin,
-                   generics.GenericAPIView):
-    queryset = Notice.objects.all()
-    serializer_class = NoticeSerializer
-
-    def get(self, request, *args, **kwargs):
-        return self.retrieve(request, *args, **kwargs)
-
-    def put(self, request, *args, **kwargs):
-        return self.update(request, *args, **kwargs)
-
-    def delete(self, request, *args, **kwargs):
-        return self.destroy(request, *args, **kwargs)
+        serializer = self.serializer_class(data=request.data,
+                                           context={'request': request})
+        serializer.is_valid(raise_exception=True)
+        user = serializer.validated_data['user']
+        token, created = Token.objects.get_or_create(user=user)
+        return Response({
+            'token': token.key,
+            'user_id': user.pk,
+            'email': user.email
+        })
